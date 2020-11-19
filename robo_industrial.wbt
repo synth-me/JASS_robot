@@ -1,0 +1,596 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  basicTimeStep 29
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.4125638525732746 -0.8874570539075194 -0.2054532672402248 1.02271798305148
+  position -16.321083776335236 11.007592092671405 13.654364135061474
+}
+CardboardBox {
+  translation -0.88 0.5449023726079284 -1.619976500756021
+  rotation 1 1.830822099261895e-14 -8.145026082022949e-13 0.00023543861252814613
+  size 0.03 0.2 0.3
+  mass 0.25
+}
+CardboardBox {
+  translation 0.16000000000000006 0.5449023726079284 -1.619976500756021
+  rotation -1 3.621688432091656e-14 -9.454011715098797e-13 -0.0002354386125281419
+  name "cardboard box(2)"
+  size 0.03 0.2 0.3
+  mass 0.25
+}
+CardboardBox {
+  translation 1.22 0.5449023726079284 -1.619976500756021
+  rotation 0.9999999999999999 1.8353020235016703e-14 -1.4471718325349987e-12 0.00023543861252813754
+  name "cardboard box(1)"
+  size 0.03 0.2 0.3
+  mass 0.25
+}
+WoodenBox {
+  translation 0.19 0.22 -1.84
+  name "wooden box(1)"
+  size 0.1 0.45 0.6
+}
+WoodenBox {
+  translation 0.59 0.22 6.56
+  name "wooden box(4)"
+  size 3 0.45 0.6
+}
+WoodenBox {
+  translation -1.21 0.22 6.56
+  name "wooden box(5)"
+  size 3 0.45 0.6
+}
+WoodenBox {
+  translation 1.24 0.22 -1.84
+  name "wooden box(2)"
+  size 0.1 0.45 0.6
+}
+WoodenBox {
+  translation -0.88 0.22 -1.84
+  name "wooden box(3)"
+  size 0.1 0.45 0.6
+}
+StopSign {
+  translation -6.75 0 -1.71
+  rotation 0 -1 0 1.5708
+}
+PlasticCrate {
+  translation 0.73 -1.8326e-05 5.84
+  rotation 0.6611257448249275 0.04704720838714311 -0.7487985775311419 9.243855502589669e-18
+  name "plastic crate(1)"
+  size 0.4 0.17 0.7
+  color 1 0.333333 0
+  mass 0.1
+}
+PlasticCrate {
+  translation -0.2 -1.8326e-05 5.81
+  rotation -0.9547398289691523 0.24656791373497 -0.16636142250034422 6.401064110630152e-18
+  name "plastic crate(2)"
+  size 0.4 0.17 0.7
+  color 1 0.333333 0
+  mass 0.4
+}
+PlasticCrate {
+  translation -1.56 -1.8326008431837626e-05 5.84
+  rotation 1.1323280686712164e-14 0.3164151269594966 0.9486208238443882 2.24513336455083e-18
+  name "plastic crate(5)"
+  size 0.4 0.17 0.7
+  color 1 0.333333 0
+  mass 0.1
+}
+AdvertisingBoard {
+  translation 0.14 0.78 -2
+  name "advertising board(3)"
+  frontTexture [
+    "C:/Users/murie/OneDrive/Área de Trabalho/kuka_robotic/X.png"
+  ]
+  displayWidth 0.5
+  displayHeight 0.5
+  frameThickness 0.1
+}
+AdvertisingBoard {
+  translation -0.96 0.8 -2.02
+  name "advertising board(4)"
+  frontTexture [
+    "C:/Users/murie/OneDrive/Área de Trabalho/kuka_robotic/A.jpg"
+  ]
+  displayWidth 0.5
+  displayHeight 0.5
+  frameThickness 0.1
+}
+AdvertisingBoard {
+  translation 1.16 0.8 -2.02
+  name "advertising board(2)"
+  frontTexture [
+    "C:/Users/murie/OneDrive/Área de Trabalho/kuka_robotic/A.jpg"
+  ]
+  displayWidth 0.5
+  displayHeight 0.5
+  frameThickness 0.1
+}
+Floor {
+  size 17 15
+}
+Puma560 {
+  translation 2.94 1.03 5.1
+  rotation 0 1 0 -1.5707953071795862
+  name "PUMA 560(2)"
+  controller ""
+}
+Puma560 {
+  translation 4.73518 0.04 5.03444
+  rotation 0 1 0 1.5708
+  name "PUMA 560(3)"
+  controller ""
+}
+Pedestrian {
+  translation 3.97062 1.28 5.0459
+  rotation 0 1 0 -3.1415853071795863
+  name "pedestrian(6)"
+  shirtColor 1 0 0
+  pantsColor 1 0 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+FloorLight {
+  translation 7.35 0 -4.6
+  pointLightIntensity 5
+}
+FloorLight {
+  translation -8.29 0 -7.25
+  name "floor light(1)"
+  pointLightIntensity 5
+}
+FloorLight {
+  translation -8.29 0 6.73
+  name "floor light(2)"
+  pointLightIntensity 5
+}
+FloorLight {
+  translation 7.79 0 6.55
+  name "floor light(3)"
+  pointLightIntensity 5
+}
+FloorLight {
+  translation -0.36 0 7.16
+  name "floor light(5)"
+  pointLightIntensity 5
+}
+FloorLight {
+  translation 7.79 0 0.65
+  name "floor light(4)"
+  pointLightIntensity 5
+}
+AdvertisingBoard {
+  translation 8.21 1.64 -1.85003
+  rotation 0 -1 0 1.5708
+  frontTexture [
+    "C:/Users/murie/OneDrive/Área de Trabalho/wallpapers/zuck_1984.jpg"
+  ]
+  recognitionColors [
+    0.666667 0 0
+    0.75 0 0
+  ]
+  frameThickness 0.5
+}
+AdvertisingBoard {
+  translation 4.35 1.64 7.23997
+  rotation 0 1 0 -3.1415853071795863
+  name "advertising board(1)"
+  frontTexture [
+    "C:/Users/murie/OneDrive/Área de Trabalho/robotica/WORKER 2-1.png"
+  ]
+}
+OrderSign {
+  translation -4.7 0 -4.05
+  rotation 0 1 0 -1.5707953071795862
+}
+Laptop {
+  translation 3.115680001861941 0.9989692290260865 2.9129499152552216
+  rotation -0.11056675030992984 0.9938678467299081 -0.0013026750774997092 -0.021368929161103747
+  controller ""
+}
+Laptop {
+  translation -3.813757602482267 0.9989692290260866 -5.745156264622638
+  rotation -0.0011799262555560964 0.9999986044048019 -0.0011827774430619926 -1.5708866132550883
+  name "laptop(1)"
+  controller ""
+}
+Table {
+  translation -7.01 0 -4.97
+  size 2 0.38 1
+  feetSize 1.3 0.1
+  frameThickness 0.14
+  trayAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+Table {
+  translation 2.89 0 5.22
+  name "table(3)"
+  size 1 1 1
+  feetSize 0.7 0.5
+  frameThickness 0.14
+  trayAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+Table {
+  translation -3.73 0 -5.75
+  rotation 0 1 0 -3.1415853071795863
+  name "table(1)"
+  size 1 1 1
+  feetSize 1 0.1
+  frameThickness 0.14
+  trayAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+Table {
+  translation 3.15 0 2.88
+  rotation 0 -1 0 1.57079
+  name "table(2)"
+  size 1 1 1
+  feetSize 1 0.1
+  frameThickness 0.14
+  trayAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+  legAppearance VarnishedPine {
+    colorOverride 0 0 0
+    textureTransform TextureTransform {
+      scale 4 5
+    }
+  }
+}
+Puma560 {
+  translation -7.34 0 -5.88
+  controller ""
+}
+Puma560 {
+  translation -6.59 0 -3.92
+  rotation 0 1 0 3.14159
+  name "PUMA 560(1)"
+  controller ""
+}
+Pedestrian {
+  translation -2.98 1.27 -5.8
+  rotation 0 1 0 -1.5707953071795862
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation -7.5941 0.63981 -4.90752
+  rotation -0.5664072052289086 0.6326212292205383 0.5281791913775779 2.11089
+  name "pedestrian(1)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation 5.60034 1.27 -1.88651
+  rotation 0 1 0 1.5708
+  name "pedestrian(2)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation 3.08523 1.27 2.14759
+  rotation 0 1 0 8.38706e-06
+  name "pedestrian(7)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation 5.8447 1.27 -0.204107
+  rotation 0 1 0 2.0944
+  name "pedestrian(4)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation 6.01271 1.27 -3.80334
+  rotation 0 -1 0 -0.7854053071795866
+  name "pedestrian(3)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Pedestrian {
+  translation -1269.27 1.27 -1277.33
+  rotation 0 -1 0 -0.7854053071795866
+  name "pedestrian(5)"
+  shirtColor 0.952941 1 0
+  pantsColor 0.952941 1 0
+  shoesColor 0 0 0
+  skinColor 1 1 1
+}
+Fence {
+  translation -2.7 0 2.56
+  rotation 0 1 0 -3.1415853071795863
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation -2.7 0 2.56
+  rotation 0 1 0 -3.1415853071795863
+  name "fence(7)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation -2.79 0 7.53
+  rotation 0 1 0 1.5708
+  name "fence(3)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation -2.82 0 7.53
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "fence(10)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation -2.76 0 -3.14
+  rotation 0 1 0 -3.1415853071795863
+  name "fence(6)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation 2.28 0 -3.11
+  rotation 0 1 0 -3.1415853071795863
+  name "fence(2)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation 2.19 0 1.86
+  rotation 0 1 0 1.5708
+  name "fence(1)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation 2.19 0 6.8
+  rotation 0 1 0 1.5708
+  name "fence(4)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation 6.5 0 6.72
+  rotation 0 1 0 1.5708
+  name "fence(8)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Fence {
+  translation 7.03 0 3.74
+  rotation 0 1 0 -3.1415853071795863
+  name "fence(9)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Floor {
+  name "floor(2)"
+  size 17 15
+}
+Fence {
+  translation -3.47 0 -6.65
+  rotation 0 1 0 -3.1415853071795863
+  name "fence(5)"
+  recognitionColors [
+    0.952941 1 0
+  ]
+  height 0.5
+  poleShape "square"
+  poleAppearance PBRAppearance {
+    baseColor 0.952941 1 0
+    metalness 0
+    normalMapFactor 0
+    emissiveColor 0.952941 1 0
+  }
+  horizontalBarAppearance PBRAppearance {
+    baseColor 0.835294 1 0
+    metalness 0
+    IBLStrength 12
+  }
+}
+Youbot {
+  translation -6.41645811988233 0.1021733723622762 -1.2684533722666673
+  rotation 0.9999983284957069 -0.00012463899135533522 0.001824135662264632 -1.570833807149734
+  controller "kuka_main"
+  bodySlot [
+    Camera {
+      translation 0.186845 -0.00683105 0.762588
+      rotation 0.9999999998264792 1.3702899997622262e-05 -1.2620299997810117e-05 1.57079
+    }
+  ]
+}
+TexturedBackground {
+}
