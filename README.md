@@ -5,3 +5,7 @@ The task was: selecting an object based on the tag above it, catch and deliver i
 There's a gui to help stop and run the robot, and all the computer vision is powered by tesseract.exe
 link to the img: <p>https://github.com/synth-me/JASS_robot/blob/main/images_and_videos/youtbot_common.jpg?raw=true</p>
 !['real kuka robot'](https://github.com/synth-me/JASS_robot/blob/main/images_and_videos/youtbot_common.jpg?raw=true)
+
+
+## if you clone this repo the robot should behave like that: ##
+[![the robot walking](http://img.youtube.com/vi/41ZtNHBSgso/0.jpg)](http://www.youtube.com/watch?v=41ZtNHBSgso "Functional Video")
